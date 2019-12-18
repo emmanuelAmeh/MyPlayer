@@ -115,6 +115,8 @@ public class MainActivity extends AppCompatActivity {
             // setting the media player to null is an easy way to tell that the media player
             // is not configured to play an audio file at the moment.
             mMediaPlayer = null;
+
+            //Testing release
             Toast.makeText(MainActivity.this, "I'm done", Toast.LENGTH_SHORT).show();
 
             // Regardless of whether or not we were granted audio focus, abandon it. This also
